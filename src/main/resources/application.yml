@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    name: gin-test  #���ݿ���
+    url: jdbc:mysql://10.250.8.221:3306/gin-test?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC #url
+    username: gin-demo  #�û���
+    password: 849c1878-5294-498b-accc-c1f6c6cc6bed  #����
+    driver-class-name: com.mysql.cj.jdbc.Driver  #���ݿ���������
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #����ӳ���ļ�
+  type-aliases-package: com.example.test.bean #����ʵ����
